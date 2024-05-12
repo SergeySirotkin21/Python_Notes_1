@@ -51,8 +51,8 @@ def print_one_note():
 # Вывод списка заметок с фильтром по дате
 def print_filtered_by_date(notes):
     filtered_notes = []
-    start_date = input("Введите начальную дату: ")
-    final_date = input("Введите конечную дату: ")
+    start_date = input("Введите начальную дату в формате ГГГГ-ММ-ДД: ")
+    final_date = input("Введите конечную дату в формате ГГГГ-ММ-ДД: ")
     date = []
     for note in notes:
         date = ("".join([note["date"]]))
